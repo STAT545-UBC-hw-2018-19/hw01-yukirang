@@ -10,7 +10,7 @@ I have encountered several requirements related to data visualization during my 
 
 ## Yuki's interests
 
-![Yuki's interests](/interests.png =200)
+![Yuki's interests](/interests.png = 200)
 
 
 
