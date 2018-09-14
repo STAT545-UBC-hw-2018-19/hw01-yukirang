@@ -10,7 +10,40 @@ I have encountered several requirements related to data visualization during my 
 
 ## Yuki's interests
 
-![Yuki's interests](/interests.png){:height="50%" width="50%"}
+![Yuki's interests](/interests.png)
+
+I was inspired by the "Play Style" in Dota2 to show a radar graph of my interests, which is done by R, played with the "fmsb" library:
+
+```R
+# Library
+library(fmsb)
+
+# Create data: interests of Yuki Rang:
+data=data.frame(
+                Kpop=c(20),
+                F1=c(7),
+                travel=c(15),
+                coding=c(17),
+                Dota2=c(10),
+                movie=c(11),
+                photography=c(9))
+colnames(data)=c("K-pop" , "F1" , "travel" , "coding","Dota2" , "movie", "photography")
+
+# Add 2 lines to the dataframe: the max and min of each topic to show on the plot!
+data=rbind(rep(20,10) , rep(0,10) , data)
+
+# The default radar chart proposed by the library:
+radarchart(data)
+
+# Custom the radarChart !
+radarchart( data  , axistype=1 , 
+            
+#custom polygon
+pcol=rgb(0.9,0.5,0.5,0.9) , pfcol=rgb(0.8,0.5,0.5,0.5) , plwd=4 , 
+            
+#custom the grid and labels
+cglcol="grey", axislabcol="black", caxislabels=seq(0,20,5), cglwd=0.8,vlcex=0.8)
+```
 
 
 
