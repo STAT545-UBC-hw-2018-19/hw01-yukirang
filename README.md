@@ -8,10 +8,21 @@ Hello everyone. My name is Ke Rang. You can call me Yuki. I'm an MEng student in
 
 I have encountered several requirements related to data visualization during my previous web development practices. Thus I wish to learn how to handle data in a "systematic" way. And that's why I'm here!
 
-## Yuki's interests
+## Interests
 
-![Yuki's interests](/interests.png)
 
+
+### Expressions toward randomly picked heroes 
+Hero | Emoji
+------------ | -------------
+Vengeful Spirit | :kissing_heart:
+Viper | :blush:
+Wraith King | :relieved:
+Spirit Breaker | :flushed:
+Earthshaker | :disappointed_relieved:
+Meepo | :scream:
+
+## R exploration
 I was inspired by the "Play Style" in Dota2 to show a radar graph of my interests, which is done by R, played with the "fmsb" library:
 
 ```R
@@ -44,6 +55,7 @@ pcol=rgb(0.9,0.5,0.5,0.9) , pfcol=rgb(0.8,0.5,0.5,0.5) , plwd=4 ,
 #custom the grid and labels
 cglcol="grey", axislabcol="black", caxislabels=seq(0,20,5), cglwd=0.8,vlcex=0.8)
 ```
+
 
 
 
