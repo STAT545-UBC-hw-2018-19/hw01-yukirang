@@ -1,0 +1,41 @@
+---
+title: "hw01_gapminder.Rmd"
+output: github_document 
+---
+## Explore the 'gapminder' data
+
+Load the package:
+```{r}
+library("gapminder")
+```
+Simple functions with data frames:
+```{r}
+str(gapminder)
+head(gapminder)
+summary(gapminder)
+names(gapminder)
+length(gapminder)
+```
+
+Show the continent line data in one table:
+```{r}
+table(gapminder$continent)
+```
+
+Aggregate the median of each continent:
+```{r}
+aggregate(lifeExp ~ continent, gapminder, median)
+```
+
+Plotting the lifeExp data by year in a graph:
+```{r}
+plot(lifeExp ~ year, gapminder)
+```
+
+Combining the ggplot2 package:
+```{r}
+library("ggplot2")
+
+ggplot(subset(gapminder),
+       aes(x = year, y = lifeExp, group = country, color = country))       +geom_line(lwd = 1, show.legend = FALSE)+facet_wrap(~continent) 
+```
