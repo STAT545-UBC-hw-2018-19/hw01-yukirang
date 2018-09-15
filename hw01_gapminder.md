@@ -102,7 +102,8 @@ plot(lifeExp ~ year, gapminder)
 
 ![](hw01_gapminder_files/figure-markdown_github/unnamed-chunk-5-1.png)
 
-Combining the ggplot2 package:
+
+Combining the ggplot2 package to show the lifeExp data by country:
 
 ``` r
 library("ggplot2")
@@ -112,3 +113,4 @@ ggplot(subset(gapminder),
 ```
 
 ![](hw01_gapminder_files/figure-markdown_github/unnamed-chunk-6-1.png)
+
