@@ -100,7 +100,7 @@ Plotting the lifeExp data by year in a graph:
 plot(lifeExp ~ year, gapminder)
 ```
 
-![](hw01_gapminder_files/figure-markdown_github/unnamed-chunk-5-1.png)
+![](https://github.com/STAT545-UBC-students/hw01-yukirang/blob/master/plot.png)
 
 
 Combining the ggplot2 package to show the lifeExp data by country:
@@ -112,5 +112,5 @@ ggplot(subset(gapminder),
        aes(x = year, y = lifeExp, group = country, color = country))       +geom_line(lwd = 1, show.legend = FALSE)+facet_wrap(~continent) 
 ```
 
-![](hw01_gapminder_files/figure-markdown_github/unnamed-chunk-6-1.png)
+![](https://github.com/STAT545-UBC-students/hw01-yukirang/blob/master/ggplot.png)
 
