@@ -10,9 +10,9 @@ I have encountered several requirements related to data visualization during my 
 
 ## Interests
 
-![Yuki's interests](/interests.png)
+![Yuki's interests](https://github.com/STAT545-UBC-students/hw01-yukirang/blob/master/interests.png)
 
-### Expressions toward randomly picked heroes 
+### Expressions toward randomly picked heroes in Dota2
 Hero | Emoji
 ------------ | -------------
 Vengeful Spirit | :kissing_heart:
@@ -21,6 +21,18 @@ Wraith King | :relieved:
 Spirit Breaker | :flushed:
 Earthshaker | :disappointed_relieved:
 Meepo | :scream:
+
+### Places I want to visit
+* Singapore
+* Hokkaido
+* LA
+* Bushan
+
+### Favorite movie
+Definitely the Resident Evil series!
+
+![](http://www.sonypictures.com/movies/residentevilthefinalchapter/assets/images/onesheet.jpg)
+
 
 ## R exploration
 I was inspired by the "Play Style" in Dota2 to show a radar graph of my interests, which is done by R, played with the "fmsb" library:
@@ -55,6 +67,10 @@ pcol=rgb(0.9,0.5,0.5,0.9) , pfcol=rgb(0.8,0.5,0.5,0.5) , plwd=4 ,
 #custom the grid and labels
 cglcol="grey", axislabcol="black", caxislabels=seq(0,20,5), cglwd=0.8,vlcex=0.8)
 ```
+
+
+
+
 
 
 
