@@ -31,7 +31,7 @@ Meepo | :scream:
 ### Favorite movie
 Definitely the Resident Evil series!
 
-![](http://www.sonypictures.com/movies/residentevilthefinalchapter/assets/images/onesheet.jpg)
+![ ](http://www.sonypictures.com/movies/residentevilthefinalchapter/assets/images/onesheet.jpg)
 
 
 ## R exploration
