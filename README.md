@@ -10,7 +10,7 @@ I have encountered several requirements related to data visualization during my 
 
 ## Interests
 
-
+![Yuki's interests](/interests.png)
 
 ### Expressions toward randomly picked heroes 
 Hero | Emoji
